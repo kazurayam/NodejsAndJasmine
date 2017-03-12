@@ -1,0 +1,24 @@
+{
+  "name": "nodejsandjasmine",
+  "version": "1.0.0",
+  "description": "Using Jasmine framework for unit-testing a Node.js project ",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kazurayam/NodejsAndJasmine.git"
+  },
+  "author": "URAYAMA,kazuaki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kazurayam/NodejsAndJasmine/issues"
+  },
+  "homepage": "https://github.com/kazurayam/NodejsAndJasmine#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "jasmine-node": "^1.14.5",
+    "request": "^2.81.0"
+  }
+}
